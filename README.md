@@ -42,7 +42,7 @@ There are **two options**:
 If your repository name is `assignment-3-roll123`, run:
 
 ```bash
-cd ~/assignment-3-roll123
+cd ~/assignment-5-roll123
 ```
 
 * `~` means your home directory.
