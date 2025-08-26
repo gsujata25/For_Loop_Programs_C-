@@ -1,34 +1,41 @@
-/** This code accepts 10 numbers from the user, then prints the sum of
- even number and sum of odd numbers */
+/** 
+ This code accepts N numbers from the user, then prints 
+ the sum of even numbers and sum of odd numbers 
+*/
 
 #include <iostream>
 using namespace std;
 
 int main()
 {
-    int n; // for number
-    int sumeven = 0; // sum of even number
-    int sumodd = 0; // sum of odd number
+    int N; // how many numbers
+    int n; // current number
+    int sumeven = 0; // sum of even numbers
+    int sumodd = 0;  // sum of odd numbers
 
-    for(int i = 1; i <= 10; i++)
+    // ask user how many numbers they want
+    cout << "Enter how many numbers you want to input: ";
+    cin >> N;
+
+    for(int i = 1; i <= N; i++)
     {
-       // asking user to enter  numbers
-       cout << "Enter number  "<<i<< " : ";
-       cin >> n;
-       if (n % 2 == 0) // its even add to even  numbers
-       {
-         sumeven =  sumeven + n;
-       }
-       else // its odd add to odd numbers
-       {
-           sumodd = sumodd + n;
-       }
+        cout << "Enter number " << i << " : ";
+        cin >> n;
+
+        if (n % 2 == 0) // even
+        {
+            sumeven += n;
+        }
+        else // odd
+        {
+            sumodd += n;
+        }
     }
 
-    // print sum of even numbers
-    cout <<"the sum of even numbers is :  "<< sumeven << endl;
-    // print sum of odd numbers
-    cout <<"the sum of odd numbers is :  "<< sumodd << endl;
-    return 0;// signal to operating system everything works fine
+    // print results
+    cout << "The sum of even numbers is : " << sumeven << endl;
+    cout << "The sum of odd numbers is  : " << sumodd << endl;
 
-}/** End of main function */
+    return 0; // signal to OS everything works fine
+}
+/** End of main function */
