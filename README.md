@@ -2,12 +2,18 @@
 
 ## Objective
 
-This repository contains multiple C++ programs that demonstrate the use of loops, conditionals, and basic input/output for solving simple problems:
+This repository contains multiple C++ programs that demonstrate the use of loops:
+
 printevennum.cpp — Prints even numbers between 2 and 20.
+
 sumevenodd.cpp — Accepts 10 numbers from the user and prints the sum of even and odd numbers separately.
+
 average.cpp — Reads N numbers from the user and calculates their average.
+
 printhalfpyramid.cpp — Prints a half pyramid using * symbols.
+
 printhalfpyramidnum.cpp — Prints a half pyramid pattern of sequential numbers.
+
 
 ---
 
