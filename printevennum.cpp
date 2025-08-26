@@ -1,3 +1,8 @@
+/*
+   This program takes two integers from the user: a starting number and an ending number.  
+   It then prints all the even numbers in that range (inclusive).  
+*/
+
 #include <iostream>
 using namespace std;
 
