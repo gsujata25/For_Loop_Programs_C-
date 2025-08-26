@@ -4,11 +4,11 @@
 
 This repository contains multiple C++ programs that demonstrate the use of loops:
 
-printevennum.cpp — Prints even numbers between 2 and 20.
+printevennum.cpp — Prints even numbers between start input value and end input value.
 
-sumevenodd.cpp — Accepts 10 numbers from the user and prints the sum of even and odd numbers separately.
+sumevenodd.cpp —  This code accepts N numbers from the user, then prints the sum of even numbers and sum of odd numbers 
 
-average.cpp — Reads N numbers from the user and calculates their average.
+average.cpp — Thic program asks the user for the number of elements N, then accepts N numbers as input, and finally calculates and displays the average of those numbers.
 
 printhalfpyramid.cpp — Prints a half pyramid using * symbols.
 
