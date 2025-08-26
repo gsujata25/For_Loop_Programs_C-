@@ -3,16 +3,26 @@ using namespace std;
 
 int main()
 {
+    int start, end;
 
-    for(int i = 2; i <= 20; i = i + 2)  // i+=2 == i = i +2;
+    // take input from user
+    cout << "Enter the starting number: ";
+    cin >> start;
+    cout << "Enter the ending number: ";
+    cin >> end;
+
+    cout << "Even numbers between " << start << " and " << end << " are: " << endl;
+
+    // make sure loop starts from the first even number
+    if(start % 2 != 0)
+        start++; // if start is odd, move to next even number
+
+    for(int i = start; i <= end; i += 2)
     {
-        // print even numbers from 2 to 20 including 20 its self
         cout << i << "\t";
     }
 
-    // add end line after loop
     cout << endl;
 
-   return 0;// signal to operating system everything works fine
-
-}/** End of main function */
+    return 0;
+}
