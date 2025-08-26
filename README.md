@@ -12,26 +12,8 @@ average.cpp — Thic program asks the user for the number of elements N, then ac
 
 printhalfpyramid.cpp — This program takes an integer input rows from the user and prints a half pyramid pattern of stars (*) as given below
 
-Enter number of rows: 5
----
-* 
-* * 
-* * * 
-* * * * 
-* * * * * 
----
-
 printhalfpyramidnum.cpp — This program takes an integer input n from the user and prints a number pyramid pattern, where the numbers start from 1 and increase sequentially in each row.
 
-Input:
-Enter number of rows: 4
-Output: 
----
-1 
-2 3 
-4 5 6 
-7 8 9 10 
----
 ---
 
 ## Files in This Repository
@@ -155,6 +137,12 @@ Output:
 ```
 g++ printhalfpyramidnum.cpp -o printhalfpyramidnum
 echo "5" | ./printhalfpyramidnum
+
+Output:
+1 
+2 3 
+4 5 6 
+7 8 9 10 
 ```
 
 
