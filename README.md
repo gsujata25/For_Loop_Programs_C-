@@ -10,10 +10,24 @@ sumevenodd.cpp —  This code accepts N numbers from the user, then prints the s
 
 average.cpp — Thic program asks the user for the number of elements N, then accepts N numbers as input, and finally calculates and displays the average of those numbers.
 
-printhalfpyramid.cpp — Prints a half pyramid using * symbols.
+printhalfpyramid.cpp — This program takes an integer input rows from the user and prints a half pyramid pattern of stars (*) as given below
 
-printhalfpyramidnum.cpp — Prints a half pyramid pattern of sequential numbers.
+Enter number of rows: 5
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
 
+printhalfpyramidnum.cpp — This program takes an integer input n from the user and prints a number pyramid pattern, where the numbers start from 1 and increase sequentially in each row.
+
+Input:
+Enter number of rows: 4
+Output: 
+1 
+2 3 
+4 5 6 
+7 8 9 10 
 
 ---
 
