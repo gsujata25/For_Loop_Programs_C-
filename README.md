@@ -1,2 +1,127 @@
-# For_Loop_Programs_C-
-For Loop Programs in C++
+# Assignment of C++ Program using for loop 
+
+## Objective
+
+This repository contains multiple C++ programs that demonstrate the use of loops, conditionals, and basic input/output for solving simple problems:
+printevennum.cpp — Prints even numbers between 2 and 20.
+sumevenodd.cpp — Accepts 10 numbers from the user and prints the sum of even and odd numbers separately.
+average.cpp — Reads N numbers from the user and calculates their average.
+printhalfpyramid.cpp — Prints a half pyramid using * symbols.
+printhalfpyramidnum.cpp — Prints a half pyramid pattern of sequential numbers.
+
+---
+
+## Files in This Repository
+
+* `printevennum.cpp`, 'sumevenodd.cpp', 'average.cpp', 'printhalfpyramid.cpp', 'printhalfpyramidnum.cpp' — **This is the only file you will edit.**
+* `check.sh` — Automated test script. **Do not change this file.**
+* `README.md` — Instructions. **Do not change this file.**
+
+---
+
+## Workflow
+
+### 1. Download the Repository
+
+Download the repository as a ZIP file:
+
+1. Open your repository page on GitHub.
+2. Click the green **Code** button.
+3. Select **Download ZIP**.
+4. Extract the ZIP into your **home directory** (or another folder you can easily access).
+
+Now, you need to open the extracted folder in a terminal.
+There are **two options**:
+
+**Option A: Use `cd` in the terminal**
+If your repository name is `assignment-3-roll123`, run:
+
+```bash
+cd ~/assignment-3-roll123
+```
+
+* `~` means your home directory.
+* Use the **Tab key** to auto-complete folder names while typing.
+* If you are not sure where you extracted the ZIP, check with:
+
+  ```bash
+  ls
+  ```
+
+  and look for the folder name.
+
+**Option B: Open the terminal from the file manager**
+
+1. Navigate to the extracted folder in your file manager.
+2. Right-click inside the folder (on empty space).
+3. Select **“Open in Terminal.”**
+   → A terminal will open directly inside that folder.
+
+---
+
+### 2. Install `g++` (if not already installed)
+
+On Ubuntu/Linux, install the GNU C++ compiler:
+
+```bash
+sudo apt update
+sudo apt install g++
+g++ --version
+```
+
+You should see the installed version number.
+
+---
+
+## How to compile and run a single program
+
+1. Open a terminal in this repository folder.
+2. Compile the program with g++ and run it, for example:
+
+- Compile and run `printevennum.cpp`:
+```
+g++ printevennum.cpp -o printevennum
+echo "5 20" | ./printevennum
+```
+
+- Compile and run `sumevenodd.cpp`:
+```
+g++ sumevenodd.cpp -o sumevenodd
+echo 5 | ./sumevenodd
+```
+
+- Compile and run `average.cpp`:
+```
+g++ average.cpp -o average
+echo 3 | ./average
+```
+
+- Compile and run `printhalfpyramid.cpp`:
+```
+g++ printhalfpyramid.cpp -o printhalfpyramid
+echo 5 | ./printhalfpyramid
+```
+
+- Compile and run `printhalfpyramidnum.cpp`:
+```
+g++ printhalfpyramidnum.cpp -o printhalfpyramidnum.cpp
+echo 15 | ./printhalfpyramidnum.cpp
+```
+
+
+
+Notes:
+- Use `echo <N> | ./program` in examples above to feed input non-interactively. You can also run the program and type N manually.
+
+## How to run the test script `check.sh`
+
+1. Make sure the script is executable (once):
+```
+chmod +x check.sh
+```
+2. Run the script:
+```
+./check.sh
+```
+
+The script will compile each program, run multiple test cases, verify outputs, and print a summary of how many tests passed and failed.
