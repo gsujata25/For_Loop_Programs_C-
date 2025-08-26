@@ -136,7 +136,7 @@ Output:
 - Compile and run `printhalfpyramidnum.cpp`:
 ```
 g++ printhalfpyramidnum.cpp -o printhalfpyramidnum
-echo "5" | ./printhalfpyramidnum
+echo "4" | ./printhalfpyramidnum
 
 Output:
 1 
