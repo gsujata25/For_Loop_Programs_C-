@@ -19,7 +19,7 @@ printhalfpyramidnum.cpp — Prints a half pyramid pattern of sequential numbers.
 
 ## Files in This Repository
 
-* `printevennum.cpp`, 'sumevenodd.cpp', 'average.cpp', 'printhalfpyramid.cpp', 'printhalfpyramidnum.cpp' — **This is the only file you will edit.**
+* 'printevennum.cpp', 'sumevenodd.cpp', 'average.cpp', 'printhalfpyramid.cpp', 'printhalfpyramidnum.cpp' — **This is the only file you will edit.**
 * `check.sh` — Automated test script. **Do not change this file.**
 * `README.md` — Instructions. **Do not change this file.**
 
