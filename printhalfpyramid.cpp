@@ -1,13 +1,11 @@
-/** Write a program to print half pyramid using 
-
+/* Write a program to print half pyramid using 
 Input: 3
 
 Output:
 * 
 * * 
 * * * 
-
-* */
+*/
 #include <iostream>
 using namespace std;
 
