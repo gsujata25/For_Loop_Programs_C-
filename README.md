@@ -86,26 +86,52 @@ echo "5 20" | ./printevennum
 
 - Compile and run `sumevenodd.cpp`:
 ```
+Example: Suppose you want to give N = 5 and then the 5 numbers.
+
 g++ sumevenodd.cpp -o sumevenodd
-echo 5 | ./sumevenodd
+echo "5 10 3 8 7 12" | ./sumevenodd
+
+Here’s what happens:
+5 → N (number of inputs)
+10 3 8 7 12 → the actual numbers
+
+Output:
+The sum of even numbers is : 30
+The sum of odd numbers is  : 10
+
 ```
 
 - Compile and run `average.cpp`:
 ```
 g++ average.cpp -o average
-echo 3 | ./average
+echo "3 10 20 30" | ./average
+
+Explanation:
+3 → tells the program you will enter 3 numbers.
+10 20 30 → the actual numbers.
+
+Output:
+The average of the entered input numbers is = 20
 ```
 
 - Compile and run `printhalfpyramid.cpp`:
 ```
 g++ printhalfpyramid.cpp -o printhalfpyramid
-echo 5 | ./printhalfpyramid
+echo "5" | ./printhalfpyramid
+
+Output:
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+
 ```
 
 - Compile and run `printhalfpyramidnum.cpp`:
 ```
-g++ printhalfpyramidnum.cpp -o printhalfpyramidnum.cpp
-echo 15 | ./printhalfpyramidnum.cpp
+g++ printhalfpyramidnum.cpp -o printhalfpyramidnum
+echo 15 | ./printhalfpyramidnum
 ```
 
 
