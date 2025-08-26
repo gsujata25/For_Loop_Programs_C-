@@ -5,6 +5,7 @@ Output:
 * 
 * * 
 * * * 
+
 */
 #include <iostream>
 using namespace std;
